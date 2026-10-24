@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover pure, golden honey at Golden Hive." />
+  <title>Golden Hive | Natural Honey</title>
+  <link rel="stylesheet" href="/style.css" />
+  <script type="module" src="/main.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#">🍯 Golden Hive</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Our Honey</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">PURE • NATURAL • LOCAL</p>
+        <h1>A Little Taste of Sunshine</h1>
+        <p>
+          Discover the natural sweetness of golden honey,
+          carefully selected for your table.
+        </p>
+        <a class="button" href="#products">Explore Our Honey</a>
+      </div>
+
+      <div class="hero-image" role="img"
+        aria-label="Golden honey in a glass jar">
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <p class="eyebrow">FROM NATURE TO YOU</p>
+      <h2>Our Honey Collection</h2>
+
+      <div class="product-grid">
+        <article class="product">
+          <div class="product-icon">🍯</div>
+          <h3>Wildflower Honey</h3>
+          <p>Floral aroma and a lovely golden finish.</p>
+          <button class="button add-to-cart"
+            data-product="Wildflower Honey">
+            Choose Honey
+          </button>
+        </article>
+
+        <article class="product">
+          <div class="product-icon">🌼</div>
+          <h3>Mountain Honey</h3>
+          <p>A rich taste inspired by mountain flowers.</p>
+          <button class="button add-to-cart"
+            data-product="Mountain Honey">
+            Choose Honey
+          </button>
+        </article>
+      </div>
+      <p id="message" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="about" id="about">
+      <h2>Sweetness You Can Feel Good About</h2>
+      <p>
+        We believe the best things are simple:
+        good honey, honest care, and a little sweetness every day.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Golden Hive · Made with sweetness 🍯</p>
+  </footer>
+</body>
+</html>
